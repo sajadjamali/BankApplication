@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+.services{
+    overflow: auto;
+    border-radius: 15px;
+}
+
+#servicesHeader{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: linear-gradient(232.65deg, #6D47D3 0%, #A08DD4 102.36%);
+}
+
+#offcanvasRight{
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+#otherPages{
+    list-style: none;
+}
+
+#otherPages li::before {
+    font-size: 25px;
+    content: "\2022";
+    color: #6D47D3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.firstSection img{
+    width: 75% !important;
+}
+
+#servicesFooter img{
+    width: 70%;
+}
+
+.secoundSection img{
+    height: 130px !important;
+}
+
+#airplaneTicketlogIn{
+    border: 2px solid white;
+    border-radius: 60px;
+    font-size: 1.4rem;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 3em;
+    left: 7em;
+    padding: 0 30px 10px 30px;
+}
+
+#scan{
+    border: 8px solid #c2bfbf;
+    background-color: #6D47D3;
+    color: white;
+    padding: 0.4em 1.3em;
+    border-radius: 50%;
+}
+
+#servicesFooter .linkChild{
+    font-size: 4em !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 4em !important;
+}
+
+#servicesFooter{
+    background: linear-gradient(232.65deg, #6D47D3 0%, #A08DD4 102.36%);
+}
+
+#servicesFooter img{
+    border-radius: 25px;
+}
+
+#servicesFooter header{
+    margin-right: 4rem;
+}
+
+#offcanvasBottom{
+    background: linear-gradient(232.65deg, #6D47D3 0%, #A08DD4 102.36%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px 15px 0px 0px;
+    height: 50vh !important;
+}
+
+.linkChild, .homeLink, .servicesLink{
+    border-radius: 40px;
+}
+
+:root {
+    --boxShadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.linkChild:hover{
+    box-shadow: var(--boxShadow);
+}
+
+.homeLink:hover{
+    box-shadow: var(--boxShadow);
+}
+
+.servicesLink:hover{
+    box-shadow: var(--boxShadow);
+}
+
+#scan:hover{
+    box-shadow: var(--boxShadow);
+}
+
+@media screen and (max-width: 576px) {
+    #servicesFooter p, #servicesMain p{
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #airplaneTicketlogIn{
+        left: 3em !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #airplaneTicketlogIn{
+        left: 2.7em !important;
+        top: 6.5em !important;
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #servicesText {
+        font-size: calc(0.9rem + .2vw) !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #servicesHeader {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    #paymentServices {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #paymentServices {
+        text-align: center;
+        margin-bottom: 2.5rem !important;
+    }
+    #servicesFooter header{
+        text-align: center;
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .services main {
+        margin-right: 2rem !important;
+        margin-left: 2rem !important;
+    }
+    .services main img{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secoundSection img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #servicesFooter .linkChild{
+        margin-right: 0.8rem !important;
+    }
+     #scan, .servicesLink{
+        margin-right: 0.4rem !important;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #servicesFooter nav p{
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #servicesFooter nav{
+        flex-direction: column !important;
+    }
+    #servicesFooter .linkChild{
+        font-size: 5em !important;
+    }
+    .css-i4bv87-MuiSvgIcon-root{
+        font-size: 5em !important;
+    }
+    #servicesFooter nav p{
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #offcanvasBottom .offcanvas-body div{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #servicesFooter div{
+        width: 100% !important;
+    }
+    .firstSection div{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sendCodeForm input{
+    width: 20%;
+    height: 60px;
+    margin-left: 0.5em;
+    border-radius: 7px;
+    border: 2px solid gray;
+    direction: ltr;
+}
+
+@media screen and (max-width: 350px) {
+    .codeValidity {
+        margin-left: 1.3em !important;
+        margin-right: 1.3em !important;
+    }
+
+    .resend {
+        margin-left: 1.3em !important;
+        margin-right: 1.3em !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textCode{
+        font-size: 0.8em !important;
+    }
+}

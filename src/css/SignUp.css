@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.signUp {
+    margin: auto;
+    border-radius: 15px;
+    overflow: auto;
+    background-color: white;
+    height: 90vh;
+    max-height: 760px;
+}
+
+.SignUpLink1{
+    background-color: #835cee;
+}
+
+#SignUpForm{
+    width: 80%;
+    margin: auto;
+}
+
+#SignUpForm input{
+    font-size: 1em;
+    height: 50px;
+    border-radius: 6px !important;
+    border: 1.2px solid #cccccc !important;
+}
+
+.passwordInput1 button {
+    position: absolute;
+    top: 2.6em;
+    left: 1.3em;
+}
+
+.passwordInput1 {
+    position: relative;
+}
+
+#SignUpForm input:hover{
+    border-color: #834dd7 !important;
+    border-width: 2px !important;
+}
+
+#SignUpForm input:focus {
+    border-radius: 0 !important;
+    outline: 0 !important;
+}
+
+#sendCode{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    height: 45px;
+    margin: auto;
+    border-radius: 4px;
+    padding-top: 9px;
+    background: linear-gradient(232.65deg, #6D47D3 0%, #A08DD4 102.36%);
+}
+
+.LoginLink1:hover span{
+    color: black !important;
+}
+
+@media screen and (max-width: 430px) {
+    .signUp {
+        width: 95% !important;
+    }
+}

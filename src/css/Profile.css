@@ -1,0 +1,177 @@
+#avatar{
+    border: 8px solid #6D47D3;
+    border-radius: 50%;
+    padding: 0 15px;
+    background: linear-gradient(184.22deg, #D0CAE2 0.42%, #FFFFFF 105.78%);
+}
+
+#edit{
+    border: 5px solid #6D47D3;
+    border-radius: 50%;
+    padding: 2px 5px;
+    background: linear-gradient(184.22deg, #D0CAE2 0.42%, #FFFFFF 105.78%);
+}
+
+#edit{
+    top: 95px;
+    right: 35px;
+}
+
+#avatar i{
+    font-size: calc(2.1rem + 1.5vw) !important;
+    color: #6D47D3;
+}
+
+#edit i{
+    font-size: 1rem !important;
+    color: gray;
+}
+
+#profile{
+    background-color: white;
+    position: relative;
+    top: -10px;
+    margin: auto;
+    width: 75%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+#scoreTotal{
+    position: relative;
+    bottom: 2.3em;
+    background-color: #6D47D3;
+    border-radius: 6px;
+}
+
+#listItem{
+    list-style: none;
+    padding-right: 0;
+    width: 75%;
+    margin: auto;
+}
+
+#listItem .childLink{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listItem p{
+    margin-right: 0.8rem;
+    margin-bottom: 0;
+    color: #434343;
+}
+
+#listItem .listClild{
+    display: flex;
+    align-items: center;
+}
+
+.listClild i {
+    color: #179E66;
+}
+
+#exit{
+    padding: 0.5em;
+    background-color: white;
+    color: #F5AB35;
+    display: block;
+    margin: auto;
+    width: 75%;
+    border-radius: 8px;
+    border: 2px solid #F5AB35;
+}
+
+#profileFooter .linkChild{
+    font-size: 4em !important;
+}
+
+@media screen and (max-width: 670px) {
+    #servicesFooter .linkChild{
+        margin-right: 0.8rem !important;
+    }
+    #scan, .servicesLink{
+        margin-right: 0.4rem !important;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #profileFooter nav p{
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #profileFooter nav{
+        flex-direction: column !important;
+    }
+    #profileFooter .linkChild{
+        font-size: 5em !important;
+    }
+    .css-i4bv87-MuiSvgIcon-root{
+        font-size: 5em !important;
+    }
+    #profileFooter nav p{
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (max-width: 255px) {
+    #exit{
+        font-size: calc(1rem + .6vw) !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #listItem p{
+        font-size: 1rem !important;
+    }
+    #listItem{
+        width: 85% !important;
+    }
+    #exit{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #avatar{
+        padding: 4px 15px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #profile{
+        width: 100% !important;
+    }
+    #profileText p{
+        font-weight: bold;
+        font-size: calc(1rem + .3vw) !important;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    #profileText{
+        position: relative;
+        left: 2em;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #profile{
+        flex-direction: column;
+    }
+
+    #profileText{
+        left: 0;
+        bottom: 1.8em;
+    }
+}
+
+@media screen and (max-width: 265px) {
+    #servicesHeader{
+        padding-right: 2.3em !important;
+    }
+}

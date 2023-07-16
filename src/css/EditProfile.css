@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#editProfileForm input{
+    direction: rtl;
+    height: 55px;
+}
+
+#editProfileForm select{
+    height: 50px;
+}
+
+#save{
+    border-radius: 8px;
+    background: linear-gradient(232.65deg, #6D47D3 0%, #A08DD4 102.36%);
+}
+
+@media screen and (max-width: 1330px) {
+    #editProfileText {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #editProfileForm label{
+        display: block;
+        text-align: center;
+    }
+    #editProfileForm{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #editProfileMain{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #editProfileText {
+        font-size: 0.8em !important;
+    }
+}
